@@ -1,13 +1,9 @@
-/*
-
-Uncomment for sick pokestyle
-
 @font-face {
   font-family: "Pokemon";
   src: url(../fonts/PokemonSolid.ttf) format("truetype");
 }
 
-a, p, h2, h3 {
+a, p, h2, h3, h1 {
   color: rgb(215, 215, 0);
   text-shadow: rgb(35, 75, 180) 3px 3px 1px;
   -webkit-text-stroke: 2px rgb(55, 95, 200);
@@ -53,6 +49,20 @@ a:hover {
   border-bottom-color: rgba(225, 225, 225, .5);
 }
 
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-family: serif;
+  color: black;
+  font-size: 20px;
+}
+
+p input {
+  color: black;
+}
+
+
 @keyframes pulse {
   0% {
     text-shadow: 4px 4px 3px rgba(255, 255, 255, .3);
@@ -70,4 +80,3 @@ a:hover {
     text-shadow: 4px 4px 3px rgba(255, 0, 0, .3);
     background-color: rgba(0, 0, 0, .1);
   }
-}*/
